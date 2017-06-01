@@ -227,15 +227,15 @@ export default class ReactGantt extends Component {
 			switch (type) {
 				case 'years':
 					date.add(i * unitsPerInterval, 'years');
-					formattedInterval=date.format('YYYY MM DD');
+					formattedInterval=date.format('DD MM YYY');
 					break;
 				case 'months':
 					date.add(i * unitsPerInterval, 'months');
-					formattedInterval=date.format('YYYY MM DD');
+					formattedInterval=date.format('DD MM YYY');
 					break;
 				case 'days':
 					date.add(i * unitsPerInterval, 'days');
-					formattedInterval=date.format('YYYY MM DD');
+					formattedInterval=date.format('DD MM YYY');
 					break;
 				case 'hours':
 					date.add(i * unitsPerInterval, 'hours');
